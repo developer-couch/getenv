@@ -1,0 +1,27 @@
+{
+  "name": "getenv",
+  "version": "1.0.0",
+  "description": "Utility function for getting an environment variable with a default value.",
+  "main": "build/index.js",
+  "devDependencies": {
+    "@types/node": "^18.11.16",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "eslint": "^8.30.0",
+    "eslint-config-standard-with-typescript": "^24.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node ./tests",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "env",
+    "config"
+  ],
+  "author": "Developer Couch",
+  "license": "ISC"
+}
