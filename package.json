@@ -18,6 +18,10 @@
     "test": "node ./tests",
     "lint": "eslint ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developer-couch/getenv"
+  },
   "keywords": [
     "env",
     "config"
