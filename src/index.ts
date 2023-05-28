@@ -1,6 +1,6 @@
 /**
  * Gets and environment variable and if not present, returns a default value or throws an error
- * @param key The name of the environment variable to seach for
+ * @param key The name of the environment variable to search for
  * @param defaultValue The default value to return if the environment variable is not present
  * @returns The environment variable default value if not present
  */
